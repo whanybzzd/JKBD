@@ -1,0 +1,31 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target ‘JKBD’
+pod "JSONModel"
+pod "AFNetworking"
+pod "ODRefreshControl"
+pod "BlocksKit"
+pod “SDAutoLayout”
+pod "SVPullToRefresh"
+pod "SDCycleScrollView"
+pod "YYWebImage"
+pod 'Masonry'
+pod 'IQKeyboardManager'
+pod ’NJKWebViewProgress’
+pod ‘FSTextView’
+pod “ReactiveObjC”
+pod “DZNEmptyDataSet”
+pod “PQActionSheet”
+pod 'JPush', ‘3.0.6’
+pod 'GTMBase64'
+pod 'HHRouter'
+pod 'HMSegmentedControl'
+pod “ZYQAssetPickerController”
+pod 'pop', '~> 1.0'
+pod 'Aspects'
+ pod 'JAnalytics'#错误日志收集
+pod "DACircularProgress"
+post_install do |installer|
+  require 'fileutils'
+end

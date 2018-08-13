@@ -1,0 +1,161 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - DACircularProgress (2.3.1)
+  - DZNEmptyDataSet (1.8.1)
+  - FSTextView (1.8)
+  - GTMBase64 (1.0.1)
+  - HHRouter (0.1.9)
+  - HMSegmentedControl (1.5.5)
+  - IQKeyboardManager (6.0.4)
+  - JAnalytics (1.2.0):
+    - JCore (~> 1.1.7)
+  - JCore (1.1.9)
+  - JPush (3.0.6):
+    - JCore (~> 1.1.1)
+  - JSONModel (1.7.0)
+  - Masonry (1.1.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - ODRefreshControl (1.2)
+  - pop (1.0.10)
+  - PQActionSheet (0.1.2)
+  - ReactiveObjC (3.1.0)
+  - SDAutoLayout (2.2.0)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SVPullToRefresh (0.4.1)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZYQAssetPickerController (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Aspects
+  - BlocksKit
+  - DACircularProgress
+  - DZNEmptyDataSet
+  - FSTextView
+  - GTMBase64
+  - HHRouter
+  - HMSegmentedControl
+  - IQKeyboardManager
+  - JAnalytics
+  - JPush (= 3.0.6)
+  - JSONModel
+  - Masonry
+  - NJKWebViewProgress
+  - ODRefreshControl
+  - pop (~> 1.0)
+  - PQActionSheet
+  - ReactiveObjC
+  - SDAutoLayout
+  - SDCycleScrollView
+  - SVPullToRefresh
+  - YYWebImage
+  - ZYQAssetPickerController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Aspects
+    - BlocksKit
+    - DACircularProgress
+    - DZNEmptyDataSet
+    - FSTextView
+    - GTMBase64
+    - HHRouter
+    - HMSegmentedControl
+    - IQKeyboardManager
+    - JAnalytics
+    - JCore
+    - JPush
+    - JSONModel
+    - Masonry
+    - NJKWebViewProgress
+    - ODRefreshControl
+    - pop
+    - PQActionSheet
+    - ReactiveObjC
+    - SDAutoLayout
+    - SDCycleScrollView
+    - SDWebImage
+    - SVPullToRefresh
+    - YYCache
+    - YYImage
+    - YYWebImage
+    - ZYQAssetPickerController
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FSTextView: 9e2ca07bb6bb0fb7e77b49b2717adf81f3c620b5
+  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  HHRouter: c096524e95a07a1970e6e23a19ee5a9592dc326d
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  IQKeyboardManager: 29514134ef0334a6fa33cf4eee11c36c064baeaf
+  JAnalytics: 21c9c27639e6b9aae503e303a25c82c7a38e08ef
+  JCore: 27598485098d0db99d2812cba048003457d08cfb
+  JPush: c41be50eb1a574a66aeb68d237f00a4ec6ec3a82
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  ODRefreshControl: 907e6149d72dde488d5917ccfabee5bd8d711a20
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PQActionSheet: cf84354cbaafbd02c0a34b8825f58b5fd3a2cb14
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZYQAssetPickerController: dc692a6fb421c0dc0efcabd43eb260cfb073f7fd
+
+PODFILE CHECKSUM: 3513016ab9598fced327692b2b2555f232361ff5
+
+COCOAPODS: 1.5.3
