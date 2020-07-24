@@ -86,6 +86,9 @@
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
+-  (void) gameOver {
+    NSLog(@"你已经完蛋了")
+}
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     NSLog(@"33333");
